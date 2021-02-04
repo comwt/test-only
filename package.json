@@ -1,0 +1,28 @@
+{
+  "name": "test-only",
+  "version": "1.0.0",
+  "description": "A repository to try new configurations, etc.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/comwt/test-only.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/comwt/test-only/issues"
+  },
+  "homepage": "https://github.com/comwt/test-only#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.12.13",
+    "babel": "^6.23.0",
+    "babel-jest": "^26.6.3",
+    "jest": "^26.6.3",
+    "jest-config": "^26.6.3",
+    "semantic-release": "^17.3.7"
+  }
+}
