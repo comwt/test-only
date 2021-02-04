@@ -1,14 +1,15 @@
 {
   "name": "test-only",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "description": "A repository to try new configurations, etc.",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/comwt/test-only.git"
+    "url": "https://github.com/comwt/test-only.git"
   },
   "keywords": [],
   "author": "",
