@@ -11,6 +11,8 @@ describe("All 'lib' tests", () => {
         test("properly subtract numbers", () => {
             const val = subtract(10, 2);
             expect(val).toBe(8);
+            const val2 = subtract(10, 3);
+            expect(val2).toBe(7);
         });
     });
 });
