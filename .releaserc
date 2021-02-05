@@ -8,8 +8,7 @@
         [
             "@semantic-release/exec",
             {
-                "successCmd": "bash ./scripts/post-main-release.sh",
-                "successCmd": "bash ./scripts/test.sh"
+                "successCmd": "bash ./scripts/post-main-release.sh && bash ./scripts/test.sh"
             }
         ]
     ]
