@@ -1,5 +1,6 @@
 import {
-    add
+    add,
+    subtract
 } from './lib';
 
 describe("All 'lib' tests", () => {
