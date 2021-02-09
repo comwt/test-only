@@ -12,5 +12,6 @@ function multiply(a, b) {
 
 module.exports = {
   add: add,
+  multiply: multiply,
   subtract: subtract,
 };
