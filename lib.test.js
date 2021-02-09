@@ -1,5 +1,6 @@
 import {
     add,
+    multiply,
     subtract
 } from './lib';
 
@@ -9,6 +10,14 @@ describe("All 'lib' tests", () => {
             const val = add(10, 2);
             expect(val).toBe(12);
         });
+    });
+    describe("multiply function should:", () => {
+        test("properly multiply numbers", () => {
+            const val = multiply(10, 2);
+            expect(val).toBe(20);
+        });
+    });
+    describe("subtract function should:", () => {
         test("properly subtract numbers", () => {
             const val = subtract(10, 2);
             expect(val).toBe(8);
