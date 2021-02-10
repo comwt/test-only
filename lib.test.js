@@ -1,6 +1,7 @@
 import {
     add,
     divide,
+    mod,
     multiply,
     subtract
 } from './lib';
@@ -16,6 +17,12 @@ describe("All 'lib' tests", () => {
         test("properly divide numbers", () => {
             const val = divide(10, 2);
             expect(val).toBe(5);
+        });
+    });
+    describe("mod function should:", () => {
+        test("properly return the correct modulus number", () => {
+            const val = mod(5, 3);
+            expect(val).toBe(2);
         });
     });
     describe("multiply function should:", () => {
