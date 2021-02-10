@@ -4,7 +4,7 @@ if [[ $(git rev-parse --abbrev-ref HEAD) != "main" ]]; then
 fi
 
 echo "****************** Updating Next ********************"
-git fetch next && \
+git fetch --all && \
 git checkout next && \
 git merge main && \
 git push origin next && \
