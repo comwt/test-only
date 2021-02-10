@@ -1,3 +1,8 @@
+if [[ $(git rev-parse --abbrev-ref HEAD) != "main" ]]; then
+  echo "******** Skipping Merge to Next (not master) ********"
+  exit 0
+fi
+
 echo "****************** Updating Next ********************"
 git fetch --all && \
 git checkout next && \
